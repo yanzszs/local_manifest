@@ -14,6 +14,6 @@
   <project path="vendor/miuicamera" name="vendor_miuicamera" remote="yanzszs" clone-depth="1" revision="10" />
 
   <!-- Toolchain -->
-  <!-- project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="NFSclang" clone-depth="1"/ -->
+  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="yanzszs" clone-depth="1" revision="ruby-12" />
 
 </manifest>
