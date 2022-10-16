@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remote -->
+  <remote name="yanzszs"
+          fetch="https://github.com/yanzszs" />
+
+  <!-- Device Tree -->
+  <project path="kernel/xiaomi/ginkgo" name="ten_kernel_xiaomi_ginkgo" remote="yanzszs" clone-depth="1" revision="10" />
+  <project path="device/xiaomi/ginkgo" name="ten_device_xiaomi_ginkgo" remote="yanzszs" clone-depth="1" revision="10" />
+  <project path="vendor/xiaomi/ginkgo" name="ten_vendor_xiaomi_ginkgo" remote="yanzszs" clone-depth="1" revision="10" />
+
+  <!-- Miui Camera -->
+  <project path="vendor/miuicamera" name="vendor_miuicamera" remote="yanzszs" clone-depth="1" revision="10" />
+
+  <!-- Toolchain -->
+  <!-- project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="NFSclang" clone-depth="1"/ -->
+
+</manifest>
