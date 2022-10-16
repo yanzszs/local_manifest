@@ -5,8 +5,11 @@
   <remote name="yanzszs"
           fetch="https://github.com/yanzszs" />
 
+  <remote name="ArrowOS-Devices"
+          fetch="https://github.com/ArrowOS-Devices" />
+
   <!-- Device Tree -->
-  <project path="kernel/xiaomi/ginkgo" name="ten_kernel_xiaomi_ginkgo" remote="yanzszs" clone-depth="1" revision="10" />
+  <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="ArrowOS-Devices" clone-depth="1" revision="arrow-10.0" />
   <project path="device/xiaomi/ginkgo" name="ten_device_xiaomi_ginkgo" remote="yanzszs" clone-depth="1" revision="10" />
   <project path="vendor/xiaomi/ginkgo" name="ten_vendor_xiaomi_ginkgo" remote="yanzszs" clone-depth="1" revision="10" />
 
