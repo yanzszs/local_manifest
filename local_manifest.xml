@@ -31,7 +31,7 @@
   <project path="build" name="android_build" remote="yanzszs" clone-depth="1" revision="10" />
 
   <!-- Stitchimage -->
-  <remove-project name="external/asus/stitchimage" />
+  <remove-project name="android_external_asus_stitchimage" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="yanzszs" clone-depth="1" revision="10" />
 
 </manifest>
