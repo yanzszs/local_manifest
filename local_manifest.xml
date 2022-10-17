@@ -19,4 +19,16 @@
   <!-- Toolchain -->
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="yanzszs" clone-depth="1" revision="12" />
 
+  <!-- Frameworks -->
+  <remove-project name="android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="yanzszs" clone-depth="1" revision="10" />
+
+  <!-- Build -->
+  <remove-project name="android_build" />
+  <project path="build" name="android_build" remote="yanzszs" clone-depth="1" revision="10" />
+
+  <!-- Stitchimage -->
+  <remove-project name="external/asus/stitchimage" />
+  <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="yanzszs" clone-depth="1" revision="10" />
+
 </manifest>
