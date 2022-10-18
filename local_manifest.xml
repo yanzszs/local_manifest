@@ -5,9 +5,9 @@
   <remote name="yanzszs"
           fetch="https://github.com/yanzszs" />
 
-  <!-- Remote -->
-  <remote name="kdrag0n"
-          fetch="https://github.com/kdrag0n" />
+  <remote name="NFSclang"
+          fetch="https://pf.osdn.net/gitroot/n/nf/nfs86/"
+          revision="master" />
 
   <!-- Kernel Tree -->
   <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="extended-eas-haptics" />
@@ -21,6 +21,6 @@
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="yanzszs" clone-depth="1" revision="13" />
 
   <!-- Toolchain -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="NFSclang" clone-depth="1"/>
 
 </manifest>
