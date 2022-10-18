@@ -5,41 +5,15 @@
   <remote name="yanzszs"
           fetch="https://github.com/yanzszs" />
 
-  <remote name="ArrowOS-Devices"
-          fetch="https://github.com/ArrowOS-Devices" />
+  <!-- Kernel Tree -->
+  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
 
   <!-- Device Tree -->
-  <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="ArrowOS-Devices" clone-depth="1" revision="arrow-10.0" />
-  <project path="device/xiaomi/ginkgo" name="ten_device_xiaomi_ginkgo" remote="yanzszs" clone-depth="1" revision="10" />
-  <project path="vendor/xiaomi/ginkgo" name="ten_vendor_xiaomi_ginkgo" remote="yanzszs" clone-depth="1" revision="10" />
+  <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
+  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="yanzszs" clone-depth="1" revision="13" />
 
-  <!-- Miui Camera -->
-  <project path="vendor/miuicamera" name="vendor_miuicamera" remote="yanzszs" clone-depth="1" revision="10" />
-
-  <!-- LiveDisplay -->
-  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="yanzszs" clone-depth="1" revision="lineage-17.1" />
-
-  <!-- Toolchain -->
-  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="yanzszs" clone-depth="1" revision="12" />
-
-  <!-- Frameworks -->
-  <!-- remove-project name="android_frameworks_base" / -->
-  <!-- project path="frameworks/base" name="android_frameworks_base" remote="yanzszs" clone-depth="1" revision="10" / -->
-
-  <!-- Build -->
-  <!-- remove-project name="android_build" / -->
-  <!-- project path="build/make" name="android_build" remote="yanzszs" revision="10" clone-depth="1" -->
-    <!-- copyfile src="core/root.mk" dest="Makefile" / -->
-    <!-- linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" / -->
-    <!-- linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" / -->
-    <!-- linkfile src="core" dest="build/core" / -->
-    <!-- linkfile src="envsetup.sh" dest="build/envsetup.sh" / -->
-    <!-- linkfile src="target" dest="build/target" / -->
-    <!-- linkfile src="tools" dest="build/tools" / -->
-  <!-- /project -->
-
-  <!-- Stitchimage -->
-  <remove-project name="android_external_asus_stitchimage" />
-  <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="yanzszs" clone-depth="1" revision="10" />
+  <!-- Vendor Tree -->
+  <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
+  <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="yanzszs" clone-depth="1" revision="13" />
 
 </manifest>
