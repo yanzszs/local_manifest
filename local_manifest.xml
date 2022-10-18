@@ -6,7 +6,7 @@
           fetch="https://github.com/yanzszs" />
 
   <!-- Kernel Tree -->
-  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
+  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="extended-eas-haptics" />
 
   <!-- Device Tree -->
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
