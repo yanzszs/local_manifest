@@ -5,6 +5,10 @@
   <remote name="yanzszs"
           fetch="https://github.com/yanzszs" />
 
+  <!-- Remote -->
+  <remote name="kdrag0n"
+          fetch="https://github.com/kdrag0n" />
+
   <!-- Kernel Tree -->
   <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="extended-eas-haptics" />
 
@@ -15,5 +19,8 @@
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="yanzszs" clone-depth="1" revision="13" />
+
+  <!-- Toolchain -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1" revision="master" />
 
 </manifest>
