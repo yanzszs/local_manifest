@@ -10,7 +10,7 @@
           revision="master" />
 
   <!-- Kernel Tree -->
-  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="extended-eas-haptics" />
+  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
 
   <!-- Device Tree -->
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
