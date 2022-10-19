@@ -5,13 +5,6 @@
   <remote name="yanzszs"
           fetch="https://github.com/yanzszs" />
 
- <remote name="github-me"
-	 fetch="https://github.com/GhostMaster69-dev" />
-
-  <!-- Remote -->
-  <remote name="PE"
-          fetch="https://github.com/PixelExperience-Devices" />
-
   <!-- Kernel Tree -->
   <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="extended-eas-haptics" />
 
