@@ -5,16 +5,12 @@
   <remote name="yanzszs"
           fetch="https://github.com/yanzszs" />
 
-  <!-- Remote -->
-  <remote name="kdrag0n"
-          fetch="https://github.com/kdrag0n" />
-
-  <!-- Remote -->
-  <remote name="PE"
-          fetch="https://github.com/PixelExperience-Devices" />
+  <remote name="NFSclang"
+          fetch="https://pf.osdn.net/gitroot/n/nf/nfs86/"
+          revision="master" />
 
   <!-- Kernel Tree -->
-  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="PE" clone-depth="1" revision="twelve" />
+  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="extended-eas-haptics" />
 
   <!-- Device Tree -->
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
@@ -24,7 +20,7 @@
   <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="yanzszs" clone-depth="1" revision="13" />
 
-  <!-- Proton clang toolchain -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1" revision="master" />
+  <!-- Toolchain -->
+  <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="NFSclang" clone-depth="1"/>
 
 </manifest>
