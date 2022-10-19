@@ -5,8 +5,8 @@
   <remote name="yanzszs"
           fetch="https://github.com/yanzszs" />
 
-  <remote name="ImSurajxD"
-          fetch="https://gitlab.com/ImSurajxD" />
+ <remote name="github-me"
+	 fetch="https://github.com/GhostMaster69-dev" />
 
   <!-- Remote -->
   <remote name="PE"
@@ -23,7 +23,7 @@
   <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="yanzszs" clone-depth="1" revision="13" />
 
-  <!-- Toolchain -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+  <!-- Android clang toolchain -->
+  <project path="prebuilts/clang/host/linux-x86/clang-android" name="android-clang" remote="gitlab-me" revision="master" clone-depth="1" />
 
 </manifest>
