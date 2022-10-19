@@ -9,8 +9,12 @@
   <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
 
+  <!-- Remote -->
+  <remote name="PE"
+          fetch="https://github.com/PixelExperience-Devices" />
+
   <!-- Kernel Tree -->
-  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="extended-eas-haptics" />
+  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="PE" clone-depth="1" revision="twelve" />
 
   <!-- Device Tree -->
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
