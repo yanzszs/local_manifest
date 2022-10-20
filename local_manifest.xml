@@ -5,9 +5,8 @@
   <remote name="yanzszs"
           fetch="https://github.com/yanzszs" />
 
-  <remote name="NFSclang"
-          fetch="https://pf.osdn.net/gitroot/n/nf/nfs86/"
-          revision="master" />
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience" />
 
   <!-- Kernel Tree -->
   <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
@@ -20,7 +19,7 @@
   <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="13" />
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="yanzszs" clone-depth="1" revision="13" />
 
-  <!-- Toolchain -->
-  <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="NFSclang" clone-depth="1"/>
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pixel" clone-depth="1" revision="thirteen" />
 
 </manifest>
