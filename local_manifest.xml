@@ -16,7 +16,7 @@
   <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="extended-eas" />
 
   <!-- Device Tree -->
-  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="thirteen" />
+  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="rice-13" />
 
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="thirteen" />
