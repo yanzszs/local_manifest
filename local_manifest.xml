@@ -17,11 +17,9 @@
 
   <!-- Device Tree -->
   <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="thirteen" />
-  <!--project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="yanzszs" clone-depth="1" revision="20" /-->
 
   <!-- Vendor Tree -->
-  <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="thirteen" />
-  <!--project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="yanzszs" clone-depth="1" revision="13" /-->
+  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="thirteen" />
 
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1"/>
