@@ -24,7 +24,4 @@
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1"/>
 
-  <remove-project name="RiceDroid/android_frameworks_base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="yanzszs" clone-depth="1" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
-
 </manifest>
