@@ -13,13 +13,15 @@
           revision="master" />
 
   <!-- Kernel Tree -->
-  <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="extended-eas" />
+  <project path="kernel/xiaomi/whyred" name="kernel" remote="yanzszs" clone-depth="1" revision="extended-eas" />
 
   <!-- Device Tree -->
-  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="rice-13" />
+  <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="thirteen" />
+  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="yanzszs" clone-depth="1" revision="thirteen" />
 
   <!-- Vendor Tree -->
-  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="thirteen" />
+  <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="yanzszs" clone-depth="1" revision="thirteen" />
+  <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="yanzszs" clone-depth="1" revision="thirteen" />
 
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1"/>
