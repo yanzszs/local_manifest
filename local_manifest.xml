@@ -17,6 +17,4 @@
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1"/>
 
-  <remove-project name="device/google/gs201" />
-
 </manifest>
